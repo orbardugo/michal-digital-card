@@ -1,120 +1,133 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html class="light" dir="rtl" lang="he">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>מיכל בק - כרטיס ביקור דיגיטלי</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#6dec13",
+                        "background-light": "#f7f8f6",
+                        "navy-brand": "#1e293b",
+                        "sage-brand": "#869a7c",
+                        "cream-brand": "#fdfbf7",
+                    },
+                    fontFamily: {
+                        "display": ["Assistant", "Manrope", "sans-serif"]
+                    },
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        body { font-family: 'Assistant', 'Manrope', sans-serif; }
+        .custom-shadow { box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.15); }
+    </style>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html class="light" dir="rtl" lang="he"&gt;&lt;head&gt;</p>
-<p class="p1">&lt;meta charset="utf-8"/&gt;</p>
-<p class="p1">&lt;meta content="width=device-width, initial-scale=1.0" name="viewport"/&gt;</p>
-<p class="p1">&lt;title&gt;מיכל בק - כרטיס ביקור דיגיטלי&lt;/title&gt;</p>
-<p class="p1">&lt;script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"&gt;&lt;/script&gt;</p>
-<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&amp;amp;display=swap" rel="stylesheet"/&gt;</p>
-<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;amp;display=swap" rel="stylesheet"/&gt;</p>
-<p class="p1">&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/&gt;</p>
-<p class="p1">&lt;script id="tailwind-config"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>tailwind.config = {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>darkMode: "class",</p>
-<p class="p1"><span class="Apple-converted-space">            </span>theme: {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>extend: {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>colors: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"primary": "#6dec13",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"background-light": "#f7f8f6",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"background-dark": "#182210",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"navy-brand": "#1e293b",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"sage-brand": "#869a7c",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"cream-brand": "#fdfbf7",</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>fontFamily: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"display": ["Manrope", "sans-serif"]</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>borderRadius: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"DEFAULT": "0.25rem",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"lg": "0.5rem",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"xl": "0.75rem",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"full": "9999px"</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;style type="text/tailwindcss"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.custom-shadow {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.15);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.material-symbols-outlined {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body class="bg-background-light dark:bg-background-dark min-h-screen flex items-center justify-center p-4 md:p-8"&gt;</p>
-<p class="p1">&lt;div class="max-w-5xl w-full bg-cream-brand dark:bg-slate-900 rounded-xl overflow-hidden custom-shadow flex flex-col md:flex-row-reverse min-h-[600px]"&gt;</p>
-<p class="p1">&lt;div class="w-full md:w-5/12 bg-white relative overflow-hidden flex items-center justify-center min-h-[450px] md:min-h-full"&gt;</p>
-<p class="p1">&lt;img alt="מיכל בק" class="w-full h-full object-cover object-top" src="michal.jpeg"/&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;div class="w-full md:w-7/12 flex flex-col p-8 md:p-12 relative text-right"&gt;</p>
-<p class="p1">&lt;div class="mb-10 pt-4"&gt;</p>
-<p class="p1">&lt;h1 class="text-4xl md:text-5xl font-extrabold text-navy-brand dark:text-white leading-tight"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                    </span>מיכל &lt;span class="text-sage-brand"&gt;בק&lt;/span&gt;</p>
-<p class="p1">&lt;/h1&gt;</p>
-<p class="p1">&lt;p class="text-lg font-medium text-navy-brand/60 dark:text-white/60 mt-2"&gt;רואת חשבון ומדריכת חינוך פיננסי&lt;/p&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;div class="space-y-6 flex-grow"&gt;</p>
-<p class="p1">&lt;div class="relative pr-6 border-r-2 border-primary"&gt;</p>
-<p class="p1">&lt;p class="text-navy-brand/80 dark:text-slate-300 leading-relaxed text-lg"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                        </span>מעניקה כלים ושירותים פיננסיים המאפשרים לכל אחד ואחת לשלוט בעתיד הכלכלי שלהם דרך חינוך נגיש וניהול עושר אסטרטגי. עם ניסיון של למעלה מעשור, אני מגשרת על הפער בין דינמיקת השוק המורכבת לבין החלטות פיננסיות יומיומיות.</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8"&gt;</p>
-<p class="p1">&lt;div class="p-4 rounded-lg bg-background-light dark:bg-slate-800 border border-navy-brand/5"&gt;</p>
-<p class="p1">&lt;h3 class="text-xs font-bold text-navy-brand dark:text-primary uppercase tracking-widest mb-1"&gt;התמחות&lt;/h3&gt;</p>
-<p class="p1">&lt;p class="text-sm text-navy-brand/70 dark:text-white/70"&gt;בניית הון ואסטרטגיות השקעה&lt;/p&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;div class="p-4 rounded-lg bg-background-light dark:bg-slate-800 border border-navy-brand/5"&gt;</p>
-<p class="p1">&lt;h3 class="text-xs font-bold text-navy-brand dark:text-primary uppercase tracking-widest mb-1"&gt;פילוסופיה&lt;/h3&gt;</p>
-<p class="p1">&lt;p class="text-sm text-navy-brand/70 dark:text-white/70"&gt;גישה נגישה, מבוססת נתונים ושקיפות מלאה&lt;/p&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;div class="mt-12 flex items-center justify-center md:justify-start border-t border-navy-brand/10 pt-8"&gt;</p>
-<p class="p1">&lt;div class="flex flex-wrap justify-center md:justify-start gap-4"&gt;</p>
-<p class="p1">&lt;a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary hover:text-navy-brand transition-colors" href="#" title="TikTok"&gt;</p>
-<p class="p1">&lt;svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"&gt;&lt;path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.89-.23-2.74.24-.8.41-1.45 1.12-1.75 1.95-.27.68-.31 1.44-.14 2.15.26 1.1 1.11 2.05 2.17 2.45.64.26 1.34.33 2.03.22.86-.1 1.69-.53 2.27-1.17.58-.65.91-1.49.95-2.36.04-2.34.02-4.68.03-7.02l.02-5.51z"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p1">&lt;a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary hover:text-navy-brand transition-colors" href="#" title="Facebook"&gt;</p>
-<p class="p1">&lt;svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"&gt;&lt;path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p1">&lt;a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary hover:text-navy-brand transition-colors" href="#" title="LinkedIn"&gt;</p>
-<p class="p1">&lt;svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"&gt;&lt;path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p1">&lt;a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary hover:text-navy-brand transition-colors" href="#" title="Instagram"&gt;</p>
-<p class="p1">&lt;svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"&gt;&lt;path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p1">&lt;a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary hover:text-navy-brand transition-colors" href="#" title="Phone"&gt;</p>
-<p class="p1">&lt;span class="material-icons text-sm"&gt;phone&lt;/span&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p1">&lt;a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary hover:text-navy-brand transition-colors" href="#" title="Email"&gt;</p>
-<p class="p1">&lt;span class="material-icons text-sm"&gt;email&lt;/span&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;div class="fixed top-0 left-0 w-64 h-64 bg-primary/5 rounded-full -ml-32 -mt-32 blur-3xl pointer-events-none"&gt;&lt;/div&gt;</p>
-<p class="p1">&lt;div class="fixed bottom-0 right-0 w-64 h-64 bg-sage-brand/10 rounded-full -mr-32 -mb-32 blur-3xl pointer-events-none"&gt;&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;&lt;/html&gt;</p>
+<body class="bg-background-light min-h-screen flex items-center justify-center p-4 md:p-8">
+
+<div id="main-card" class="max-w-5xl w-full bg-cream-brand rounded-xl overflow-hidden custom-shadow flex flex-col md:flex-row-reverse min-h-[600px]">
+    
+    <div class="w-full md:w-5/12 bg-white relative overflow-hidden flex items-center justify-center min-h-[450px] md:min-h-full">
+        <img alt="מיכל בק" class="w-full h-full object-cover object-top" src="michal.jpeg"/>
+    </div>
+
+    <div id="content-pane" class="w-full md:w-7/12 flex flex-col p-8 md:p-12 relative text-right">
+        
+        <div class="flex justify-start mb-8">
+            <div class="bg-navy-brand p-1 rounded-lg flex gap-1">
+                <button onclick="setLanguage('en')" id="btn-en" class="px-4 py-1.5 rounded text-xs font-bold text-white/60 hover:text-white uppercase transition-all">EN</button>
+                <button onclick="setLanguage('he')" id="btn-he" class="px-4 py-1.5 rounded text-xs font-bold bg-primary text-navy-brand uppercase transition-all">HE</button>
+            </div>
+        </div>
+
+        <div class="mb-10 pt-4">
+            <h1 id="name-heading" class="text-4xl md:text-5xl font-extrabold text-navy-brand leading-tight">
+                מיכל <span class="text-sage-brand">בק</span>
+            </h1>
+            <p id="title-sub" class="text-lg font-medium text-navy-brand/60 mt-2">רואת חשבון ומדריכת חינוך פיננסי</p>
+        </div>
+
+        <div class="space-y-6 flex-grow">
+            <div id="bio-border" class="relative pr-6 border-r-2 border-primary">
+                <p id="main-bio" class="text-navy-brand/80 leading-relaxed text-lg">
+                    רואת חשבון, מדריכת חינוך פיננסי, מלווה אנשים בתהליכי שינוי בניה והעצמה פיננסית ליצירת ביטחון כלכלי ויצירת הבנה פיננסית נרחבת.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                <div class="p-4 rounded-lg bg-background-light border border-navy-brand/5">
+                    <h3 id="label-special" class="text-xs font-bold text-navy-brand uppercase tracking-widest mb-1">התמחות</h3>
+                    <p id="text-special" class="text-sm text-navy-brand/70">בניית הון ואסטרטגיות השקעה</p>
+                </div>
+                <div class="p-4 rounded-lg bg-background-light border border-navy-brand/5">
+                    <h3 id="label-phil" class="text-xs font-bold text-navy-brand uppercase tracking-widest mb-1">פילוסופיה</h3>
+                    <p id="text-phil" class="text-sm text-navy-brand/70">גישה נגישה ושקיפות מלאה</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 flex items-center justify-center md:justify-start border-t border-navy-brand/10 pt-8">
+            <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                <a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary transition-colors" href="#" title="TikTok"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.89-.23-2.74.24-.8.41-1.45 1.12-1.75 1.95-.27.68-.31 1.44-.14 2.15.26 1.1 1.11 2.05 2.17 2.45.64.26 1.34.33 2.03.22.86-.1 1.69-.53 2.27-1.17.58-.65.91-1.49.95-2.36.04-2.34.02-4.68.03-7.02l.02-5.51z"></path></svg></a>
+                <a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary transition-colors" href="#" title="Facebook"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+                <a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary transition-colors" href="#" title="LinkedIn"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></a>
+                <a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary transition-colors" href="#" title="Instagram"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a>
+                <a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary transition-colors" href="tel:+9720000000" title="Phone"><span class="material-icons text-sm">phone</span></a>
+                <a class="w-10 h-10 flex items-center justify-center rounded-lg bg-navy-brand text-white hover:bg-primary transition-colors" href="mailto:email@example.com" title="Email"><span class="material-icons text-sm">email</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const langData = {
+        he: {
+            name: 'מיכל <span class="text-sage-brand">בק</span>',
+            title: 'רואת חשבון ומדריכת חינוך פיננסי',
+            bio: 'רואת חשבון, מדריכת חינוך פיננסי, מלווה אנשים בתהליכי שינוי בניה והעצמה פיננסית ליצירת ביטחון כלכלי ויצירת הבנה פיננסית נרחבת.',
+            specL: 'התמחות', specV: 'בניית הון ואסטרטגיות השקעה',
+            philL: 'פילוסופיה', philV: 'גישה נגישה ושקיפות מלאה',
+            dir: 'rtl', align: 'text-right'
+        },
+        en: {
+            name: 'Michal <span class="text-sage-brand">Back</span>',
+            title: 'Accountant & Financial Educator',
+            bio: 'Accountant, financial education instructor, accompanies people through the processes of change, construction and financial empowerment to create financial security and create extensive financial understanding.',
+            specL: 'Specialization', specV: 'Wealth Building & Investment Strategy',
+            philL: 'Philosophy', philV: 'Approachable & Transparent',
+            dir: 'ltr', align: 'text-left'
+        }
+    };
+
+    function setLanguage(lang) {
+        const d = langData[lang];
+        document.getElementById('main-card').dir = d.dir;
+        document.getElementById('main-card').className = `max-w-5xl w-full bg-cream-brand rounded-xl overflow-hidden custom-shadow flex flex-col ${lang === 'he' ? 'md:flex-row-reverse' : 'md:flex-row'} min-h-[600px] transition-all`;
+        document.getElementById('content-pane').className = `w-full md:w-7/12 flex flex-col p-8 md:p-12 relative ${d.align}`;
+        
+        document.getElementById('name-heading').innerHTML = d.name;
+        document.getElementById('title-sub').innerText = d.title;
+        document.getElementById('main-bio').innerText = d.bio;
+        document.getElementById('label-special').innerText = d.specL;
+        document.getElementById('text-special').innerText = d.specV;
+        document.getElementById('label-phil').innerText = d.philL;
+        document.getElementById('text-phil').innerText = d.philV;
+
+        const border = document.getElementById('bio-border');
+        border.className = `relative transition-all ${lang === 'he' ? 'pr-6 border-r-2 border-primary' : 'pl-6 border-l-2 border-primary'}`;
+
+        document.getElementById('btn-he').className = `px-4 py-1.5 rounded text-xs font-bold ${lang === 'he' ? 'bg-primary text-navy-brand' : 'text-white/60'} uppercase transition-all`;
+        document.getElementById('btn-en').className = `px-4 py-1.5 rounded text-xs font-bold ${lang === 'en' ? 'bg-primary text-navy-brand' : 'text-white/60'} uppercase transition-all`;
+    }
+</script>
 </body>
 </html>
